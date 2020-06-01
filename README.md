@@ -17,7 +17,12 @@ Empirical analysis of the relation between the complexity and accuracy of CNN mo
 ### 데이터
 * Alzheimer’s Disease Neuroimaging Initiative(ADNI)-1의 standardized MRI 데이터셋 중 screening 데이터 사용
     - 818개 : 정상 229개, 경도 인지 장애 401개, 알츠하이머 환자 188개
-   
+* 데이터 전처리
+   - 공간적 정규화 & 배경 제거 & 복셀 값 정규화[0,1]
+* Data augmentation
+   - MRI는 개별 데이터가 크고 전체 수는 적기 때문에 모델 과적합 해소를 위해 Crop 기법 사용
+   - train : 각 꼭짓점과 중앙에서 총 9개 crop
+   - test : 중앙에서만 crop
    
 ### 모델 구조
 

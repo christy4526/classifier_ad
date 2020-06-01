@@ -12,14 +12,18 @@ Empirical analysis of the relation between the complexity and accuracy of CNN mo
 - 분석 결과 데이터 augmentation 기법에 의해 과적합이 해결될 수 있는 기본 CNN 모델이 높은 복잡도의 ResNet 모델보다 우수한 진단 성능을 보였다.
 - 높은 복잡도가 높은 성능으로 이어진다는 일반적인 인식과 달리 의료 영상 진단에서는 학습데이터의 특징에 따른 모델 전정이 필요함을 의미한다.
 
+
 ### 데이터
-- Alzheimer’s Disease Neuroimaging Initiative(ADNI)-1의 standardized MRI 데이터셋 중 screening 데이터 사용
-    818개 : 정상 229개, 경도 인지 장애 401개, 알츠하이머 환자 188개
+* Alzheimer’s Disease Neuroimaging Initiative(ADNI)-1의 standardized MRI 데이터셋 중 screening 데이터 사용
+    - 818개 : 정상 229개, 경도 인지 장애 401개, 알츠하이머 환자 188개
+
 
 ### 모델 구조
 
 
+
 ### 실험 결과
+
 
 
 ### 결론

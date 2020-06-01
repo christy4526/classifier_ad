@@ -1,11 +1,11 @@
 # Alzheimer's disease diagnosis by CNN classifier
-## 뇌 MRI를 이용한 알츠하이머 진단 모델
+뇌 MRI를 이용한 알츠하이머 진단 모델
 - ADNI 제공 데이터셋 이용
 - Data Augmentation 적용(Crop)
 - 3D CNN 이용
 
-### MRI 기반 알츠하이머병 진단을 위한 CNN 모델의 복잡도와 성능의 연관성 분석(Empirical analysis of the relation between the complexity and accuracy of CNN
-models for the diagnosis of Alzheimer’s disease based on MRI) - 전민경, 이현석, 김성찬
+### MRI 기반 알츠하이머병 진단을 위한 CNN 모델의 복잡도와 성능의 연관성 분석
+Empirical analysis of the relation between the complexity and accuracy of CNN models for the diagnosis of Alzheimer’s disease based on MRI - 전민경, 이현석, 김성찬
 * 요약
 - MRI 기반 알츠하이머병 진단 사례에서 적당한 복잡도의 모델에 데이터 augmentation을 적용해 과적합을 줄이는 것이 우수한 성능으로 이어진다는 것을 실험적으로 분석한다.
 - 분석을 위해 다양한 복잡도를 가진 CNN 모델들에 데이터 augmentation 기법을 적용해 과적합을 최소화 했을 때 모델들의 성능을 검증한다.

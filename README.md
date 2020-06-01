@@ -25,7 +25,11 @@ Empirical analysis of the relation between the complexity and accuracy of CNN mo
    - test : 중앙에서만 crop
    
 ### 모델 구조
-
+* ResNet, VGGNet, Inception, Networks In Networks(NIN)에 기반
+   - ResNet : Stem layers
+   - VGGNet : 특징 맵 수가 증가할 때마다 각 특징 맵 사이즈를 줄임
+   - Inception : 1x1x1 convolution
+   - Network In Network : global average pooling
    
    
 ### 실험 결과
